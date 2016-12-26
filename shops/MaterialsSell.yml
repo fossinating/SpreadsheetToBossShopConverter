@@ -1,0 +1,153 @@
+shop:
+  Diamond:
+    MenuItem:
+    - lore:&4&1 Sell 1 Diamond(s) for 1,000$
+    - name:&4&1Diamond
+    - amount:1
+    - type:264:0
+    RewardType: Money
+    Reward: 1,000
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:264:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Iron Ingot:
+    MenuItem:
+    - lore:&4&1 Sell 1 Iron Ingot(s) for 200$
+    - name:&4&1Iron Ingot
+    - amount:1
+    - type:265:0
+    RewardType: Money
+    Reward: 200
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:265:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Gold Ingot:
+    MenuItem:
+    - lore:&4&1 Sell 1 Gold Ingot(s) for 350$
+    - name:&4&1Gold Ingot
+    - amount:1
+    - type:266:0
+    RewardType: Money
+    Reward: 350
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:266:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Coal:
+    MenuItem:
+    - lore:&4&1 Sell 1 Coal(s) for 100$
+    - name:&4&1Coal
+    - amount:1
+    - type:263:0
+    RewardType: Money
+    Reward: 100
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:263:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Redstone:
+    MenuItem:
+    - lore:&4&1 Sell 1 Redstone(s) for 30$
+    - name:&4&1Redstone
+    - amount:1
+    - type:331:0
+    RewardType: Money
+    Reward: 30
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:331:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Lapis Lazuli:
+    MenuItem:
+    - lore:&4&1 Sell 1 Lapis Lazuli(s) for 45$
+    - name:&4&1Lapis Lazuli
+    - amount:1
+    - type:351:4
+    RewardType: Money
+    Reward: 45
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:351:4
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Stick:
+    MenuItem:
+    - lore:&4&1 Sell 1 Stick(s) for 15$
+    - name:&4&1Stick
+    - amount:1
+    - type:280:0
+    RewardType: Money
+    Reward: 15
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:280:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Torch:
+    MenuItem:
+    - lore:&4&1 Sell 16 Torch(s) for 900$
+    - name:&4&1Torch
+    - amount:16
+    - type:50:0
+    RewardType: Money
+    Reward: 900
+    PriceType: Item
+    Price:
+    - - amount:16
+      - type:50:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Nether Star:
+    MenuItem:
+    - lore:&4&1 Sell 1 Nether Star(s) for 4,600$
+    - name:&4&1Nether Star
+    - amount:1
+    - type:399:0
+    RewardType: Money
+    Reward: 4,600
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:399:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Back:
+    MenuItem:
+    - name:&4&lGo Back
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: Shop
+    Reward: ShopMenu
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+ShopName: MaterialsSell
+DisplayName: '&c&lMaterials'
+signs:
+  text: '[MaterialsSell]'
+  NeedPermissionToCreateSign: true

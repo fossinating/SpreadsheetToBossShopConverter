@@ -1,0 +1,78 @@
+shop:
+  Spawn Pig:
+    MenuItem:
+    - lore:&4&1 Sell 1 Spawn Pig(s) for 350,000$
+    - name:&4&1Spawn Pig
+    - amount:1
+    - type:383:90
+    RewardType: Money
+    Reward: 350,000
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:383:90
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Spawn Cow:
+    MenuItem:
+    - lore:&4&1 Sell 1 Spawn Cow(s) for 350,000$
+    - name:&4&1Spawn Cow
+    - amount:1
+    - type:383:92
+    RewardType: Money
+    Reward: 350,000
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:383:92
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Spawn Chicken:
+    MenuItem:
+    - lore:&4&1 Sell 1 Spawn Chicken(s) for 350,000$
+    - name:&4&1Spawn Chicken
+    - amount:1
+    - type:383:93
+    RewardType: Money
+    Reward: 350,000
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:383:93
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Spawn Creeper:
+    MenuItem:
+    - lore:&4&1 Sell 1 Spawn Creeper(s) for 500,000$
+    - name:&4&1Spawn Creeper
+    - amount:1
+    - type:383:50
+    RewardType: Money
+    Reward: 500,000
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:383:50
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Back:
+    MenuItem:
+    - name:&4&lGo Back
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: Shop
+    Reward: ShopMenu
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+ShopName: PassiveSpawnersSell
+DisplayName: '&c&lPeaceful Spawners'
+signs:
+  text: '[PassiveSpawnersSell]'
+  NeedPermissionToCreateSign: true

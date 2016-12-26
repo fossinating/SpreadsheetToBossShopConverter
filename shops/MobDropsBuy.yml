@@ -1,0 +1,78 @@
+shop:
+  Ender Pearl:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Ender Pearl(s) for 100$
+    - name:&4&1Ender Pearl
+    - amount:1
+    - type:368:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:368:0
+    PriceType: Money
+    Price: 100
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Gunpowder:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Gunpowder(s) for 25$
+    - name:&4&1Gunpowder
+    - amount:1
+    - type:289:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:289:0
+    PriceType: Money
+    Price: 25
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Bone:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Bone(s) for 20$
+    - name:&4&1Bone
+    - amount:1
+    - type:352:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:352:0
+    PriceType: Money
+    Price: 20
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Rotten Flesh:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Rotten Flesh(s) for 15$
+    - name:&4&1Rotten Flesh
+    - amount:1
+    - type:367:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:367:0
+    PriceType: Money
+    Price: 15
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Back:
+    MenuItem:
+    - name:&4&lGo Back
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: Shop
+    Reward: ShopMenu
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+ShopName: MobDropsBuy
+DisplayName: '&c&lMob Drops'
+signs:
+  text: '[MobDropsBuy]'
+  NeedPermissionToCreateSign: true

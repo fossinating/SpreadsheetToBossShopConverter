@@ -1,0 +1,123 @@
+shop:
+  Carrot:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Carrot(s) for 50$
+    - name:&4&1Carrot
+    - amount:1
+    - type:391:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:391:0
+    PriceType: Money
+    Price: 50
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Baked Potato:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Baked Potato(s) for 50$
+    - name:&4&1Baked Potato
+    - amount:1
+    - type:393:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:393:0
+    PriceType: Money
+    Price: 50
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Potato:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Potato(s) for 15$
+    - name:&4&1Potato
+    - amount:1
+    - type:392:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:392:0
+    PriceType: Money
+    Price: 15
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Steak:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Steak(s) for 100$
+    - name:&4&1Steak
+    - amount:1
+    - type:364:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:364:0
+    PriceType: Money
+    Price: 100
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Cooked Porkchop:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Cooked Porkchop(s) for 100$
+    - name:&4&1Cooked Porkchop
+    - amount:1
+    - type:320:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:320:0
+    PriceType: Money
+    Price: 100
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Cooked Chicken:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Cooked Chicken(s) for 100$
+    - name:&4&1Cooked Chicken
+    - amount:1
+    - type:366:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:366:0
+    PriceType: Money
+    Price: 100
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Cooked Mutton:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Cooked Mutton(s) for 100$
+    - name:&4&1Cooked Mutton
+    - amount:1
+    - type:424:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:424:0
+    PriceType: Money
+    Price: 100
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Back:
+    MenuItem:
+    - name:&4&lGo Back
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: Shop
+    Reward: ShopMenu
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+ShopName: FoodBuy
+DisplayName: '&c&lFood'
+signs:
+  text: '[FoodBuy]'
+  NeedPermissionToCreateSign: true

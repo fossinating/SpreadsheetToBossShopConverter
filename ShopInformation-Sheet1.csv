@@ -1,0 +1,54 @@
+Group,Item,Amount,Price
+Materials,Diamonds,1,"1,000"
+Materials,Iron,1,200
+Materials,Gold,1,350
+Materials,Coal,1,100
+Materials,Redstone,1,30
+Materials,Lapiz,1,45
+Materials,Stick,1,15
+Materials,Torch,16,900
+Materials,Nether Star,1,"4,600"
+Food,Carrot,1,50
+Food,Cooked Potato,1,50
+Food,Potato,1,15
+Food,Steak,1,100
+Food,Cooked Porkchop,1,100
+Food,Cooked Chicken,1,100
+Food,Cooked Mutton,1,100
+Combat,Stone Sword,1,75
+Combat,Iron Sword,1,175
+Combat,Diamond Sword,1,350
+Combat,Iron Armor,1,500
+Combat,Diamond Armor,1,750
+Combat,Shield,1,75
+Combat,Bow,1,50
+Combat,Arrows,16,25
+Combat,Golden Apples,1,"5,000"
+Combat,God Apples,1,"15,000"
+Transportation,Horse Spawn Egg,1,350
+Transportation,Saddle,1,"1,250"
+Transportation,Boat,1,250
+Transportation,Minecart,1,450
+Transportation,Rails,16,350
+Transportation,Elytra,1,"50,000"
+Transportation,Fireworks,8,60
+Spawners - Passive,Pig,1,"350,000"
+Spawners - Passive,Cow,1,"350,000"
+Spawners - Passive,Chicken,1,"350,000"
+Spawners - Hostile,Creeper,1,"500,000"
+Spawners - Hostile,Zombie,1,"350,000"
+Spawners - Hostile,Skeleton,1,"300,000"
+Spawners - Hostile,Zombie Pigman,1,"500,000"
+Spawners - Hostile,Wither Skeleton,1,"400,000"
+Spawners - Hostile,Villager,1,"250,000"
+Spawners - Hostile,Blaze,1,"450,000"
+Spawners - Hostile,Iron Golem,1,"800,000"
+Mob Drops,Ender Pearl,1,100
+Mob Drops,Gunpowder,1,25
+Mob Drops,Bone,1,20
+Mob Drops,Rotten Flesh,1,15
+Blocks,Dirt,1,1
+Blocks,Cobblestone x 32,32,150
+Blocks,Obsidian,1,1025
+Blocks,Glass,1,15
+Blocks,Soul Sand,1,"800,000"

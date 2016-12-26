@@ -1,0 +1,61 @@
+shop:
+  Ender Pearl:
+    MenuItem:
+    - name:&4&1Ender Pearl
+    - amount:1
+    - type:368:0
+    RewardType: Money
+    Reward: 100
+
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:368:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Gunpowder:
+    MenuItem:
+    - name:&4&1Gunpowder
+    - amount:1
+    - type:289:0
+    RewardType: Money
+    Reward: 25
+
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:289:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Bone:
+    MenuItem:
+    - name:&4&1Bone
+    - amount:1
+    - type:352:0
+    RewardType: Money
+    Reward: 20
+
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:352:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Rotten Flesh:
+    MenuItem:
+    - name:&4&1Rotten Flesh
+    - amount:1
+    - type:367:0
+    RewardType: Money
+    Reward: 15
+
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:367:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0

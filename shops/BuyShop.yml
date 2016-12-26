@@ -1,0 +1,89 @@
+shop:
+  Combat:
+    MenuItem:
+    - name:&4&1Combat
+    - amount:1
+    - type:276:0
+    RewardType: Shop
+    Reward: CombatBuy
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Transportation:
+    MenuItem:
+    - name:&4&1Transportation
+    - amount:1
+    - type:66:0
+    RewardType: Shop
+    Reward: TransportationBuy
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  Food:
+    MenuItem:
+    - name:&4&1Food
+    - amount:1
+    - type:364:0
+    RewardType: Shop
+    Reward: FoodBuy
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  HostileSpawners:
+    MenuItem:
+    - name:&4&1HostileSpawners
+    - amount:1
+    - type:383:50
+    RewardType: Shop
+    Reward: HostileSpawnersBuy
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  PassiveSpawners:
+    MenuItem:
+    - name:&4&1PassiveSpawners
+    - amount:1
+    - type:383:90
+    RewardType: Shop
+    Reward: PassiveSpawnersBuy
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  MobDrops:
+    MenuItem:
+    - name:&4&1MobDrops
+    - amount:1
+    - type:367:0
+    RewardType: Shop
+    Reward: MobDropsBuy
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  Blocks:
+    MenuItem:
+    - name:&4&1Blocks
+    - amount:1
+    - type:1:0
+    RewardType: Shop
+    Reward: BlocksBuy
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  Materials:
+    MenuItem:
+    - name:&4&1Materials
+    - amount:1
+    - type:280:0
+    RewardType: Shop
+    Reward: MaterialsBuy
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15

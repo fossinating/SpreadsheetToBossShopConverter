@@ -1,0 +1,93 @@
+shop:
+  Dirt:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Dirt(s) for 1$
+    - name:&4&1Dirt
+    - amount:1
+    - type:3:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:3:0
+    PriceType: Money
+    Price: 1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Cobblestone:
+    MenuItem:
+    - lore:&4&1 Purchase 32 Cobblestone(s) for 150$
+    - name:&4&1Cobblestone
+    - amount:1
+    - type:4:0
+    RewardType: Item
+    Reward:
+    - - amount:32
+      - type:4:0
+    PriceType: Money
+    Price: 150
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Obsidian:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Obsidian(s) for 1025$
+    - name:&4&1Obsidian
+    - amount:1
+    - type:49:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:49:0
+    PriceType: Money
+    Price: 1025
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Glass:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Glass(s) for 15$
+    - name:&4&1Glass
+    - amount:1
+    - type:20:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:20:0
+    PriceType: Money
+    Price: 15
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Soul Sand:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Soul Sand(s) for 65$
+    - name:&4&1Soul Sand
+    - amount:1
+    - type:88:0
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:88:0
+    PriceType: Money
+    Price: 65
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Back:
+    MenuItem:
+    - name:&4&lGo Back
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: Shop
+    Reward: ShopMenu
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+ShopName: BlocksBuy
+DisplayName: '&c&lBlocks'
+signs:
+  text: '[BlocksBuy]'
+  NeedPermissionToCreateSign: true

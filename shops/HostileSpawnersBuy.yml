@@ -1,0 +1,123 @@
+shop:
+  Spawn Zombie:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Spawn Zombie(s) for 350,000$
+    - name:&4&1Spawn Zombie
+    - amount:1
+    - type:383:54
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:383:54
+    PriceType: Money
+    Price: 350,000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Spawn Skeleton:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Spawn Skeleton(s) for 300,000$
+    - name:&4&1Spawn Skeleton
+    - amount:1
+    - type:383:51
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:383:51
+    PriceType: Money
+    Price: 300,000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Spawn Zombie Pigman:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Spawn Zombie Pigman(s) for 500,000$
+    - name:&4&1Spawn Zombie Pigman
+    - amount:1
+    - type:383:57
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:383:57
+    PriceType: Money
+    Price: 500,000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Spawn Skeleton:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Spawn Skeleton(s) for 400,000$
+    - name:&4&1Spawn Skeleton
+    - amount:1
+    - type:383:51
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:383:51
+    PriceType: Money
+    Price: 400,000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Spawn Villager:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Spawn Villager(s) for 250,000$
+    - name:&4&1Spawn Villager
+    - amount:1
+    - type:383:120
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:383:120
+    PriceType: Money
+    Price: 250,000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Spawn Blaze:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Spawn Blaze(s) for 450,000$
+    - name:&4&1Spawn Blaze
+    - amount:1
+    - type:383:61
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:383:61
+    PriceType: Money
+    Price: 450,000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Spawn Pig:
+    MenuItem:
+    - lore:&4&1 Purchase 1 Spawn Pig(s) for 800,000$
+    - name:&4&1Spawn Pig
+    - amount:1
+    - type:383:90
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:383:90
+    PriceType: Money
+    Price: 800,000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Back:
+    MenuItem:
+    - name:&4&lGo Back
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: Shop
+    Reward: ShopMenu
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+ShopName: HostileSpawnersBuy
+DisplayName: '&c&lHostile Spawners'
+signs:
+  text: '[HostileSpawnersBuy]'
+  NeedPermissionToCreateSign: true

@@ -1,0 +1,258 @@
+shop:
+  Stone Sword:
+    MenuItem:
+    - lore:&4&1 Sell 1 Stone Sword(s) for 75$
+    - name:&4&1Stone Sword
+    - amount:1
+    - type:272:0
+    RewardType: Money
+    Reward: 75
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:272:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Iron Sword:
+    MenuItem:
+    - lore:&4&1 Sell 1 Iron Sword(s) for 175$
+    - name:&4&1Iron Sword
+    - amount:1
+    - type:267:0
+    RewardType: Money
+    Reward: 175
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:267:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Diamond Sword:
+    MenuItem:
+    - lore:&4&1 Sell 1 Diamond Sword(s) for 350$
+    - name:&4&1Diamond Sword
+    - amount:1
+    - type:276:0
+    RewardType: Money
+    Reward: 350
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:276:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Iron Helmet:
+    MenuItem:
+    - lore:&4&1 Sell 1 Iron Helmet(s) for 500$
+    - name:&4&1Iron Helmet
+    - amount:1
+    - type:306:0
+    RewardType: Money
+    Reward: 500
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:306:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Iron Chestplate:
+    MenuItem:
+    - lore:&4&1 Sell 1 Iron Chestplate(s) for 500$
+    - name:&4&1Iron Chestplate
+    - amount:1
+    - type:307:0
+    RewardType: Money
+    Reward: 500
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:307:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Iron Leggings:
+    MenuItem:
+    - lore:&4&1 Sell 1 Iron Leggings(s) for 500$
+    - name:&4&1Iron Leggings
+    - amount:1
+    - type:308:0
+    RewardType: Money
+    Reward: 500
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:308:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Iron Boots:
+    MenuItem:
+    - lore:&4&1 Sell 1 Iron Boots(s) for 500$
+    - name:&4&1Iron Boots
+    - amount:1
+    - type:309:0
+    RewardType: Money
+    Reward: 500
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:309:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Diamond Helmet:
+    MenuItem:
+    - lore:&4&1 Sell 1 Diamond Helmet(s) for 750$
+    - name:&4&1Diamond Helmet
+    - amount:1
+    - type:310:0
+    RewardType: Money
+    Reward: 750
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:310:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+  Diamond Chestplate:
+    MenuItem:
+    - lore:&4&1 Sell 1 Diamond Chestplate(s) for 750$
+    - name:&4&1Diamond Chestplate
+    - amount:1
+    - type:311:0
+    RewardType: Money
+    Reward: 750
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:311:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 8
+  Diamond Leggings:
+    MenuItem:
+    - lore:&4&1 Sell 1 Diamond Leggings(s) for 750$
+    - name:&4&1Diamond Leggings
+    - amount:1
+    - type:312:0
+    RewardType: Money
+    Reward: 750
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:312:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
+  Diamond Boots:
+    MenuItem:
+    - lore:&4&1 Sell 1 Diamond Boots(s) for 750$
+    - name:&4&1Diamond Boots
+    - amount:1
+    - type:313:0
+    RewardType: Money
+    Reward: 750
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:313:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 10
+  Shield:
+    MenuItem:
+    - lore:&4&1 Sell 1 Shield(s) for 75$
+    - name:&4&1Shield
+    - amount:1
+    - type:442:0
+    RewardType: Money
+    Reward: 75
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:442:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 11
+  Bow:
+    MenuItem:
+    - lore:&4&1 Sell 1 Bow(s) for 400$
+    - name:&4&1Bow
+    - amount:1
+    - type:261:0
+    RewardType: Money
+    Reward: 400
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:261:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 12
+  Arrow:
+    MenuItem:
+    - lore:&4&1 Sell 16 Arrow(s) for 425$
+    - name:&4&1Arrow
+    - amount:16
+    - type:262:0
+    RewardType: Money
+    Reward: 425
+    PriceType: Item
+    Price:
+    - - amount:16
+      - type:262:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 13
+  Golden Apple:
+    MenuItem:
+    - lore:&4&1 Sell 1 Golden Apple(s) for 5,000$
+    - name:&4&1Golden Apple
+    - amount:1
+    - type:322:0
+    RewardType: Money
+    Reward: 5,000
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:322:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 14
+  God Apple:
+    MenuItem:
+    - lore:&4&1 Sell 1 God Apple(s) for 15,000$
+    - name:&4&1God Apple
+    - amount:1
+    - type:322:1
+    RewardType: Money
+    Reward: 15,000
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:322:1
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 15
+  Back:
+    MenuItem:
+    - name:&4&lGo Back
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: Shop
+    Reward: ShopMenu
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+ShopName: CombatSell
+DisplayName: '&c&lCombat'
+signs:
+  text: '[CombatSell]'
+  NeedPermissionToCreateSign: true

@@ -1,0 +1,123 @@
+shop:
+  Spawn Horse:
+    MenuItem:
+    - lore:&4&1 Sell 1 Spawn Horse(s) for 350$
+    - name:&4&1Spawn Horse
+    - amount:1
+    - type:383:100
+    RewardType: Money
+    Reward: 350
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:383:100
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 0
+  Saddle:
+    MenuItem:
+    - lore:&4&1 Sell 1 Saddle(s) for 1,250$
+    - name:&4&1Saddle
+    - amount:1
+    - type:329:0
+    RewardType: Money
+    Reward: 1,250
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:329:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 1
+  Oak Boat:
+    MenuItem:
+    - lore:&4&1 Sell 1 Oak Boat(s) for 250$
+    - name:&4&1Oak Boat
+    - amount:1
+    - type:333:0
+    RewardType: Money
+    Reward: 250
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:333:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
+  Minecart:
+    MenuItem:
+    - lore:&4&1 Sell 1 Minecart(s) for 450$
+    - name:&4&1Minecart
+    - amount:1
+    - type:328:0
+    RewardType: Money
+    Reward: 450
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:328:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  Rail:
+    MenuItem:
+    - lore:&4&1 Sell 16 Rail(s) for 350$
+    - name:&4&1Rail
+    - amount:16
+    - type:66:0
+    RewardType: Money
+    Reward: 350
+    PriceType: Item
+    Price:
+    - - amount:16
+      - type:66:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
+  Elytra:
+    MenuItem:
+    - lore:&4&1 Sell 1 Elytra(s) for 50,000$
+    - name:&4&1Elytra
+    - amount:1
+    - type:443:0
+    RewardType: Money
+    Reward: 50,000
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:443:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 5
+  Firework Rocket:
+    MenuItem:
+    - lore:&4&1 Sell 8 Firework Rocket(s) for 60$
+    - name:&4&1Firework Rocket
+    - amount:8
+    - type:401:0
+    RewardType: Money
+    Reward: 60
+    PriceType: Item
+    Price:
+    - - amount:8
+      - type:401:0
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 6
+  Back:
+    MenuItem:
+    - name:&4&lGo Back
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: Shop
+    Reward: ShopMenu
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 54
+ShopName: TransportationSell
+DisplayName: '&c&lTransportation'
+signs:
+  text: '[TransportationSell]'
+  NeedPermissionToCreateSign: true
