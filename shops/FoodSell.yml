@@ -1,109 +1,109 @@
 shop:
   Carrot:
     MenuItem:
-    - lore:&4&1 Sell 1 Carrot(s) for 50$
+    - lore:&4&1Sell 1 Carrot(s) for 50$
     - name:&4&1Carrot
     - amount:1
-    - type:391:0
+    - type:carrot_item
     RewardType: Money
     Reward: 50
     PriceType: Item
     Price:
     - - amount:1
-      - type:391:0
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 0
-  Baked Potato:
-    MenuItem:
-    - lore:&4&1 Sell 1 Baked Potato(s) for 50$
-    - name:&4&1Baked Potato
-    - amount:1
-    - type:393:0
-    RewardType: Money
-    Reward: 50
-    PriceType: Item
-    Price:
-    - - amount:1
-      - type:393:0
+      - type:carrot_item
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 1
+  Baked Potato:
+    MenuItem:
+    - lore:&4&1Sell 1 Baked Potato(s) for 50$
+    - name:&4&1Baked Potato
+    - amount:1
+    - type:baked_potato
+    RewardType: Money
+    Reward: 50
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:baked_potato
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 2
   Potato:
     MenuItem:
-    - lore:&4&1 Sell 1 Potato(s) for 15$
+    - lore:&4&1Sell 1 Potato(s) for 15$
     - name:&4&1Potato
     - amount:1
-    - type:392:0
+    - type:potato_item
     RewardType: Money
     Reward: 15
     PriceType: Item
     Price:
     - - amount:1
-      - type:392:0
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 2
-  Steak:
-    MenuItem:
-    - lore:&4&1 Sell 1 Steak(s) for 100$
-    - name:&4&1Steak
-    - amount:1
-    - type:364:0
-    RewardType: Money
-    Reward: 100
-    PriceType: Item
-    Price:
-    - - amount:1
-      - type:364:0
+      - type:potato_item
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 3
-  Cooked Porkchop:
+  Steak:
     MenuItem:
-    - lore:&4&1 Sell 1 Cooked Porkchop(s) for 100$
-    - name:&4&1Cooked Porkchop
+    - lore:&4&1Sell 1 Steak(s) for 100$
+    - name:&4&1Steak
     - amount:1
-    - type:320:0
+    - type:cooked_beef
     RewardType: Money
     Reward: 100
     PriceType: Item
     Price:
     - - amount:1
-      - type:320:0
+      - type:cooked_beef
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 4
-  Cooked Chicken:
+  Cooked Porkchop:
     MenuItem:
-    - lore:&4&1 Sell 1 Cooked Chicken(s) for 100$
-    - name:&4&1Cooked Chicken
+    - lore:&4&1Sell 1 Cooked Porkchop(s) for 100$
+    - name:&4&1Cooked Porkchop
     - amount:1
-    - type:366:0
+    - type:grilled_pork
     RewardType: Money
     Reward: 100
     PriceType: Item
     Price:
     - - amount:1
-      - type:366:0
+      - type:grilled_pork
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 5
-  Cooked Mutton:
+  Cooked Chicken:
     MenuItem:
-    - lore:&4&1 Sell 1 Cooked Mutton(s) for 100$
-    - name:&4&1Cooked Mutton
+    - lore:&4&1Sell 1 Cooked Chicken(s) for 100$
+    - name:&4&1Cooked Chicken
     - amount:1
-    - type:424:0
+    - type:cooked_chicken
     RewardType: Money
     Reward: 100
     PriceType: Item
     Price:
     - - amount:1
-      - type:424:0
+      - type:cooked_chicken
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 6
+  Cooked Mutton:
+    MenuItem:
+    - lore:&4&1Sell 1 Cooked Mutton(s) for 100$
+    - name:&4&1Cooked Mutton
+    - amount:1
+    - type:cooked_mutton
+    RewardType: Money
+    Reward: 100
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:cooked_mutton
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
   Back:
     MenuItem:
     - name:&4&lGo Back
@@ -111,13 +111,13 @@ shop:
     - type:STAINED_GLASS_PANE
     - durability:14
     RewardType: Shop
-    Reward: ShopMenu
+    Reward: SellShop
     PriceType: Free
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 54
 ShopName: FoodSell
-DisplayName: '&c&lFood'
+DisplayName: '&c&lSell > Food'
 signs:
   text: '[FoodSell]'
   NeedPermissionToCreateSign: true

@@ -1,109 +1,109 @@
 shop:
   Spawn Zombie:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Zombie(s) for 350,000$
+    - lore:&4&1Purchase 1 Spawn Zombie(s) for 350,000$
     - name:&4&1Spawn Zombie
     - amount:1
-    - type:383:54
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:54
+      - type:monster_egg
     PriceType: Money
-    Price: 350,000
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 0
-  Spawn Skeleton:
-    MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Skeleton(s) for 300,000$
-    - name:&4&1Spawn Skeleton
-    - amount:1
-    - type:383:51
-    RewardType: Item
-    Reward:
-    - - amount:1
-      - type:383:51
-    PriceType: Money
-    Price: 300,000
+    Price: 350000
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 1
-  Spawn Zombie Pigman:
+  Spawn Skeleton:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Zombie Pigman(s) for 500,000$
-    - name:&4&1Spawn Zombie Pigman
+    - lore:&4&1Purchase 1 Spawn Skeleton(s) for 300,000$
+    - name:&4&1Spawn Skeleton
     - amount:1
-    - type:383:57
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:57
+      - type:monster_egg
     PriceType: Money
-    Price: 500,000
+    Price: 300000
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 2
-  Spawn Skeleton:
+  Spawn Zombie Pigman:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Skeleton(s) for 400,000$
-    - name:&4&1Spawn Skeleton
+    - lore:&4&1Purchase 1 Spawn Zombie Pigman(s) for 500,000$
+    - name:&4&1Spawn Zombie Pigman
     - amount:1
-    - type:383:51
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:51
+      - type:monster_egg
     PriceType: Money
-    Price: 400,000
+    Price: 500000
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 3
-  Spawn Villager:
+  Spawn Skeleton:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Villager(s) for 250,000$
-    - name:&4&1Spawn Villager
+    - lore:&4&1Purchase 1 Spawn Skeleton(s) for 400,000$
+    - name:&4&1Spawn Skeleton
     - amount:1
-    - type:383:120
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:120
+      - type:monster_egg
     PriceType: Money
-    Price: 250,000
+    Price: 400000
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 4
-  Spawn Blaze:
+  Spawn Villager:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Blaze(s) for 450,000$
-    - name:&4&1Spawn Blaze
+    - lore:&4&1Purchase 1 Spawn Villager(s) for 250,000$
+    - name:&4&1Spawn Villager
     - amount:1
-    - type:383:61
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:61
+      - type:monster_egg
     PriceType: Money
-    Price: 450,000
+    Price: 250000
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 5
-  Spawn Pig:
+  Spawn Blaze:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Pig(s) for 800,000$
-    - name:&4&1Spawn Pig
+    - lore:&4&1Purchase 1 Spawn Blaze(s) for 450,000$
+    - name:&4&1Spawn Blaze
     - amount:1
-    - type:383:90
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:90
+      - type:monster_egg
     PriceType: Money
-    Price: 800,000
+    Price: 450000
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 6
+  Spawn Pig:
+    MenuItem:
+    - lore:&4&1Purchase 1 Spawn Pig(s) for 800,000$
+    - name:&4&1Spawn Pig
+    - amount:1
+    - type:monster_egg
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:monster_egg
+    PriceType: Money
+    Price: 800000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
   Back:
     MenuItem:
     - name:&4&lGo Back
@@ -111,13 +111,13 @@ shop:
     - type:STAINED_GLASS_PANE
     - durability:14
     RewardType: Shop
-    Reward: ShopMenu
+    Reward: BuyShop
     PriceType: Free
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 54
 ShopName: HostileSpawnersBuy
-DisplayName: '&c&lHostile Spawners'
+DisplayName: '&c&lBuy > Hostile Spawners'
 signs:
   text: '[HostileSpawnersBuy]'
   NeedPermissionToCreateSign: true

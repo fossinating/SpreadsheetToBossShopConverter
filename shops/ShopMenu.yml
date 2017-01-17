@@ -1,0 +1,30 @@
+shop:
+  SellShop:
+    MenuItem:
+    - lore:&4&1Sell your things here
+    - name:&4&1Sell Shop
+    - amount:1
+    - type:emerald_block
+    RewardType: Shop
+    Reward: SellShop
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 3
+  BuyShop:
+    MenuItem:
+    - lore:&4&1Buy things here
+    - name:&4&1Buy Shop
+    - amount:1
+    - type:redstone_block
+    RewardType: Shop
+    Reward: BuyShop
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 7
+ShopName: ShopMenu
+DisplayName: '&c&lShop Menu'
+signs:
+  text: '[Shop]'
+  NeedPermissionToCreateSign: true

@@ -9,7 +9,7 @@ for line in itemDictionary:
 	secondaryID = values[1]
 	DisplayName = values[2]
 	ID = values[3]
-	dict[DisplayName] = str(mainID) + ":" + str(secondaryID)
+	dict[DisplayName] = str(ID)
 itemDictionary.close()
 shops = {}
 spreadsheet.seek(0,0)
@@ -31,12 +31,54 @@ for name in shops.keys():
 	print "Initialized file shops/" + str(name) + "Buy.yml"
 	temp.close()
 
+#Makes the ShopMenu menu file
+
+temp = open("shops/ShopMenu.yml", "w+")
+temp.seek(0,2)
+temp.write("shop:")
+temp.write("\n  SellShop:")
+temp.write("\n    MenuItem:")
+temp.write("\n    - lore:&4&1Sell your things here")
+temp.write("\n    - name:&4&1Sell Shop")
+temp.write("\n    - amount:1")
+temp.write("\n    - type:emerald_block")
+temp.write("\n    RewardType: Shop")
+temp.write("\n    Reward: SellShop")
+temp.write("\n    PriceType: Free")
+temp.write("\n    Message: ''")
+temp.write("\n    ExtraPermission: ''")
+temp.write("\n    InventoryLocation: 3")
+print "Added Sell Shop to the shop menu"
+
+temp.write("\n  BuyShop:")
+temp.write("\n    MenuItem:")
+temp.write("\n    - lore:&4&1Buy things here")
+temp.write("\n    - name:&4&1Buy Shop")
+temp.write("\n    - amount:1")
+temp.write("\n    - type:redstone_block")
+temp.write("\n    RewardType: Shop")
+temp.write("\n    Reward: BuyShop")
+temp.write("\n    PriceType: Free")
+temp.write("\n    Message: ''")
+temp.write("\n    ExtraPermission: ''")
+temp.write("\n    InventoryLocation: 7")
+print "Added Buy Shop to the shop menu"
+
+temp.write("\nShopName: ShopMenu")
+temp.write("\nDisplayName: '&c&lShop Menu'")
+temp.write("\nsigns:")
+temp.write("\n  text: '[Shop]'")
+temp.write("\n  NeedPermissionToCreateSign: true")
+print "Finalized Shop Menu"
+
+temp.close()
+	
 
 #Makes the buy and sell menus
 shopType = "Sell"
 shopInfo = open("shopInfo.txt", "r")
-itemNum = 0
 for i in ["1","2"]:	
+	itemNum = 1
 	temp = open("shops/" + str(shopType) + "Shop.yml", "w+")
 	temp.write("shop:")
 	print "Initialized file shops/" + str(shopType) + "Shop.yml"
@@ -65,22 +107,22 @@ shopInfo.close()
 #Makes all of the sell shops
 spreadsheet.seek(0,0)
 spreadsheet.readline()
-itemNum = 0
+itemNum = 1
 lastGroup = "null"
 for line in spreadsheet:
 	wordsList = line.strip('\t\n\r').split("	")
 	if lastGroup != wordsList[0]:
-		itemNum = 0
+		itemNum = 1
 	temp = open("shops/" + str(wordsList[0]) + "Sell.yml", "r+")
 	temp.seek(0,2)
 	temp.write("\n  " + str(wordsList[1]) + ":")
 	temp.write("\n    MenuItem:")
-	temp.write("\n    - lore:&4&1 Sell " + str(wordsList[2]) + " " + str(wordsList[1]) + "(s) for " + str(wordsList[3]) + "$")
+	temp.write("\n    - lore:&4&1Sell " + str(wordsList[2]) + " " + str(wordsList[1]) + "(s) for " + str(wordsList[3]) + "$")
 	temp.write("\n    - name:&4&1" + wordsList[1])
 	temp.write("\n    - amount:" + str(wordsList[2]))
 	temp.write("\n    - type:" + str(dict[wordsList[1]]))
 	temp.write("\n    RewardType: Money")
-	temp.write("\n    Reward: " + str(wordsList[3]))
+	temp.write("\n    Reward: " + str(wordsList[3]).replace(",", ""))
 	temp.write("\n    PriceType: Item")
 	temp.write("\n    Price:")
 	temp.write("\n    - - amount:" + wordsList[2])
@@ -95,16 +137,16 @@ for line in spreadsheet:
 #Makes all of the buy shops
 spreadsheet.seek(0,0)
 spreadsheet.readline()
-itemNum = 0
+itemNum = 1
 for line in spreadsheet:
 	wordsList = line.strip('\t\n\r').split("	")
 	if lastGroup != wordsList[0]:
-		itemNum = 0
+		itemNum = 1
 	temp = open("shops/" + str(wordsList[0]) + "Buy.yml", "r+")
 	temp.seek(0,2)
 	temp.write("\n  " + str(wordsList[1]) + ":")
 	temp.write("\n    MenuItem:")
-	temp.write("\n    - lore:&4&1 Purchase " + str(wordsList[2]) + " " + str(wordsList[1]) + "(s) for " + str(wordsList[3]) + "$")
+	temp.write("\n    - lore:&4&1Purchase " + str(wordsList[2]) + " " + str(wordsList[1]) + "(s) for " + str(wordsList[3]) + "$")
 	temp.write("\n    - name:&4&1" + wordsList[1])
 	temp.write("\n    - amount:1")
 	temp.write("\n    - type:" + str(dict[wordsList[1]]))
@@ -113,7 +155,7 @@ for line in spreadsheet:
 	temp.write("\n    - - amount:" + wordsList[2])
 	temp.write("\n      - type:" + str(dict[wordsList[1]]))
 	temp.write("\n    PriceType: Money")
-	temp.write("\n    Price: " + str(wordsList[3]))
+	temp.write("\n    Price: " + str(wordsList[3]).replace(",", ""))
 	temp.write("\n    Message: ''")
 	temp.write("\n    ExtraPermission: ''")
 	temp.write("\n    InventoryLocation: " + str(itemNum))
@@ -137,16 +179,38 @@ for i in ["1","2"]:
 		temp.write("\n    - type:STAINED_GLASS_PANE")
 		temp.write("\n    - durability:14")
 		temp.write("\n    RewardType: Shop")
-		temp.write("\n    Reward: ShopMenu")
+		temp.write("\n    Reward: " + str(shopType) + "Shop")
 		temp.write("\n    PriceType: Free")
 		temp.write("\n    Message: ''")
 		temp.write("\n    ExtraPermission: ''")
 		temp.write("\n    InventoryLocation: 54")
 		temp.write("\nShopName: " + str(wordsList[0] + shopType))
-		temp.write("\nDisplayName: '&c&l" + wordsList[2] + "'")
+		temp.write("\nDisplayName: '&c&l" + str(shopType) + " > " + wordsList[2] + "'")
 		temp.write("\nsigns:")
 		temp.write("\n  text: '[" + str(wordsList[0] + shopType) + "]'")
 		temp.write("\n  NeedPermissionToCreateSign: true")
 		temp.close()
+	temp = open("shops/" + str(shopType) + "Shop.yml", "r+")
+	temp.seek(0,2)
+	temp.write("\n  Back:")
+	temp.write("\n    MenuItem:")
+	temp.write("\n    - name:&4&lGo Back")
+	temp.write("\n    - amount:1")
+	temp.write("\n    - type:STAINED_GLASS_PANE")
+	temp.write("\n    - durability:14")
+	temp.write("\n    RewardType: Shop")
+	temp.write("\n    Reward: ShopMenu")
+	temp.write("\n    PriceType: Free")
+	temp.write("\n    Message: ''")
+	temp.write("\n    ExtraPermission: ''")
+	temp.write("\n    InventoryLocation: 27")
+	temp.write("\nShopName: " + str(shopType) + "Shop")
+	temp.write("\nDisplayName: '&c&l" + str(shopType) + " Shop'")
+	temp.write("\nsigns:")
+	temp.write("\n  text: '[" + str(shopType) + "Shop]'")
+	temp.write("\n  NeedPermissionToCreateSign: true")
+	print "Finalized " + str(shopType) + "Shop"
+	temp.close()
 	shopType = "Buy"
+
 spreadsheet.close()

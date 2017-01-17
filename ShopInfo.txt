@@ -2,7 +2,7 @@ Combat,Diamond Sword,Combat
 Transportation,Rail,Transportation
 Food,Steak,Food
 HostileSpawners,Spawn Creeper,Hostile Spawners
-PassiveSpawners,Spawn Pig,Peaceful Spawners
+PassiveSpawners,Monster Spawner,Peaceful Spawners
 MobDrops,Rotten Flesh,Mob Drops
-Blocks,Stone,Blocks
+Blocks,Stone Bricks,Blocks
 Materials,Stick,Materials

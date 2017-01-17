@@ -1,139 +1,139 @@
 shop:
   Diamond:
     MenuItem:
-    - lore:&4&1 Sell 1 Diamond(s) for 1,000$
+    - lore:&4&1Sell 1 Diamond(s) for 1,000$
     - name:&4&1Diamond
     - amount:1
-    - type:264:0
+    - type:diamond
     RewardType: Money
-    Reward: 1,000
+    Reward: 1000
     PriceType: Item
     Price:
     - - amount:1
-      - type:264:0
+      - type:diamond
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 0
+    InventoryLocation: 1
   Iron Ingot:
     MenuItem:
-    - lore:&4&1 Sell 1 Iron Ingot(s) for 200$
+    - lore:&4&1Sell 1 Iron Ingot(s) for 200$
     - name:&4&1Iron Ingot
     - amount:1
-    - type:265:0
+    - type:iron_ingot
     RewardType: Money
     Reward: 200
     PriceType: Item
     Price:
     - - amount:1
-      - type:265:0
+      - type:iron_ingot
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 1
+    InventoryLocation: 2
   Gold Ingot:
     MenuItem:
-    - lore:&4&1 Sell 1 Gold Ingot(s) for 350$
+    - lore:&4&1Sell 1 Gold Ingot(s) for 350$
     - name:&4&1Gold Ingot
     - amount:1
-    - type:266:0
+    - type:gold_ingot
     RewardType: Money
     Reward: 350
     PriceType: Item
     Price:
     - - amount:1
-      - type:266:0
+      - type:gold_ingot
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 2
+    InventoryLocation: 3
   Coal:
     MenuItem:
-    - lore:&4&1 Sell 1 Coal(s) for 100$
+    - lore:&4&1Sell 1 Coal(s) for 100$
     - name:&4&1Coal
     - amount:1
-    - type:263:0
+    - type:coal
     RewardType: Money
     Reward: 100
     PriceType: Item
     Price:
     - - amount:1
-      - type:263:0
+      - type:coal
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 3
+    InventoryLocation: 4
   Redstone:
     MenuItem:
-    - lore:&4&1 Sell 1 Redstone(s) for 30$
+    - lore:&4&1Sell 1 Redstone(s) for 30$
     - name:&4&1Redstone
     - amount:1
-    - type:331:0
+    - type:redstone
     RewardType: Money
     Reward: 30
     PriceType: Item
     Price:
     - - amount:1
-      - type:331:0
+      - type:redstone
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 4
+    InventoryLocation: 5
   Lapis Lazuli:
     MenuItem:
-    - lore:&4&1 Sell 1 Lapis Lazuli(s) for 45$
+    - lore:&4&1Sell 1 Lapis Lazuli(s) for 45$
     - name:&4&1Lapis Lazuli
     - amount:1
-    - type:351:4
+    - type:ink_sack
     RewardType: Money
     Reward: 45
     PriceType: Item
     Price:
     - - amount:1
-      - type:351:4
+      - type:ink_sack
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 5
+    InventoryLocation: 6
   Stick:
     MenuItem:
-    - lore:&4&1 Sell 1 Stick(s) for 15$
+    - lore:&4&1Sell 1 Stick(s) for 15$
     - name:&4&1Stick
     - amount:1
-    - type:280:0
+    - type:stick
     RewardType: Money
     Reward: 15
     PriceType: Item
     Price:
     - - amount:1
-      - type:280:0
+      - type:stick
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 6
+    InventoryLocation: 7
   Torch:
     MenuItem:
-    - lore:&4&1 Sell 16 Torch(s) for 900$
+    - lore:&4&1Sell 16 Torch(s) for 900$
     - name:&4&1Torch
     - amount:16
-    - type:50:0
+    - type:torch
     RewardType: Money
     Reward: 900
     PriceType: Item
     Price:
     - - amount:16
-      - type:50:0
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 7
-  Nether Star:
-    MenuItem:
-    - lore:&4&1 Sell 1 Nether Star(s) for 4,600$
-    - name:&4&1Nether Star
-    - amount:1
-    - type:399:0
-    RewardType: Money
-    Reward: 4,600
-    PriceType: Item
-    Price:
-    - - amount:1
-      - type:399:0
+      - type:torch
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 8
+  Nether Star:
+    MenuItem:
+    - lore:&4&1Sell 1 Nether Star(s) for 4,600$
+    - name:&4&1Nether Star
+    - amount:1
+    - type:nether_star
+    RewardType: Money
+    Reward: 4600
+    PriceType: Item
+    Price:
+    - - amount:1
+      - type:nether_star
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 9
   Back:
     MenuItem:
     - name:&4&lGo Back
@@ -141,13 +141,13 @@ shop:
     - type:STAINED_GLASS_PANE
     - durability:14
     RewardType: Shop
-    Reward: ShopMenu
+    Reward: SellShop
     PriceType: Free
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 54
 ShopName: MaterialsSell
-DisplayName: '&c&lMaterials'
+DisplayName: '&c&lSell > Materials'
 signs:
   text: '[MaterialsSell]'
   NeedPermissionToCreateSign: true

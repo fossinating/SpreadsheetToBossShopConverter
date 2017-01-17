@@ -1,109 +1,109 @@
 shop:
   Spawn Horse:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Horse(s) for 350$
+    - lore:&4&1Purchase 1 Spawn Horse(s) for 350$
     - name:&4&1Spawn Horse
     - amount:1
-    - type:383:100
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:100
+      - type:monster_egg
     PriceType: Money
     Price: 350
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 0
+    InventoryLocation: 1
   Saddle:
     MenuItem:
-    - lore:&4&1 Purchase 1 Saddle(s) for 1,250$
+    - lore:&4&1Purchase 1 Saddle(s) for 1,250$
     - name:&4&1Saddle
     - amount:1
-    - type:329:0
+    - type:saddle
     RewardType: Item
     Reward:
     - - amount:1
-      - type:329:0
+      - type:saddle
     PriceType: Money
-    Price: 1,250
+    Price: 1250
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 1
+    InventoryLocation: 2
   Oak Boat:
     MenuItem:
-    - lore:&4&1 Purchase 1 Oak Boat(s) for 250$
+    - lore:&4&1Purchase 1 Oak Boat(s) for 250$
     - name:&4&1Oak Boat
     - amount:1
-    - type:333:0
+    - type:boat
     RewardType: Item
     Reward:
     - - amount:1
-      - type:333:0
+      - type:boat
     PriceType: Money
     Price: 250
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 2
+    InventoryLocation: 3
   Minecart:
     MenuItem:
-    - lore:&4&1 Purchase 1 Minecart(s) for 450$
+    - lore:&4&1Purchase 1 Minecart(s) for 450$
     - name:&4&1Minecart
     - amount:1
-    - type:328:0
+    - type:minecart
     RewardType: Item
     Reward:
     - - amount:1
-      - type:328:0
+      - type:minecart
     PriceType: Money
     Price: 450
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 3
+    InventoryLocation: 4
   Rail:
     MenuItem:
-    - lore:&4&1 Purchase 16 Rail(s) for 350$
+    - lore:&4&1Purchase 16 Rail(s) for 350$
     - name:&4&1Rail
     - amount:1
-    - type:66:0
+    - type:rails
     RewardType: Item
     Reward:
     - - amount:16
-      - type:66:0
+      - type:rails
     PriceType: Money
     Price: 350
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 4
+    InventoryLocation: 5
   Elytra:
     MenuItem:
-    - lore:&4&1 Purchase 1 Elytra(s) for 50,000$
+    - lore:&4&1Purchase 1 Elytra(s) for 50,000$
     - name:&4&1Elytra
     - amount:1
-    - type:443:0
+    - type:elytra
     RewardType: Item
     Reward:
     - - amount:1
-      - type:443:0
+      - type:elytra
     PriceType: Money
-    Price: 50,000
+    Price: 50000
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 5
+    InventoryLocation: 6
   Firework Rocket:
     MenuItem:
-    - lore:&4&1 Purchase 8 Firework Rocket(s) for 60$
+    - lore:&4&1Purchase 8 Firework Rocket(s) for 60$
     - name:&4&1Firework Rocket
     - amount:1
-    - type:401:0
+    - type:firework
     RewardType: Item
     Reward:
     - - amount:8
-      - type:401:0
+      - type:firework
     PriceType: Money
     Price: 60
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 6
+    InventoryLocation: 7
   Back:
     MenuItem:
     - name:&4&lGo Back
@@ -111,13 +111,13 @@ shop:
     - type:STAINED_GLASS_PANE
     - durability:14
     RewardType: Shop
-    Reward: ShopMenu
+    Reward: BuyShop
     PriceType: Free
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 54
 ShopName: TransportationBuy
-DisplayName: '&c&lTransportation'
+DisplayName: '&c&lBuy > Transportation'
 signs:
   text: '[TransportationBuy]'
   NeedPermissionToCreateSign: true

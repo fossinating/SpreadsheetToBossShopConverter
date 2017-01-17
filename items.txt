@@ -130,7 +130,7 @@
 63	0	Standing Sign Block	standing_sign
 64	0	Oak Door Block	wooden_door
 65	0	Ladder	ladder
-66	0	Rail	rail
+66	0	Rail	rails
 67	0	Cobblestone Stairs	stone_stairs
 68	0	Wall-mounted Sign Block	wall_sign
 69	0	Lever	lever
@@ -182,10 +182,10 @@
 97	3	Mossy Stone Brick Monster Egg	monster_egg
 97	4	Cracked Stone Brick Monster Egg	monster_egg
 97	5	Chiseled Stone Brick Monster Egg	monster_egg
-98	0	Stone Bricks	stonebrick
-98	1	Mossy Stone Bricks	stonebrick
-98	2	Cracked Stone Bricks	stonebrick
-98	3	Chiseled Stone Bricks	stonebrick
+98	0	Stone Bricks	smooth_brick
+98	1	Mossy Stone Bricks	smooth_brick
+98	2	Cracked Stone Bricks	smooth_brick
+98	3	Chiseled Stone Bricks	smooth_brick
 99	0	Brown Mushroom Block	brown_mushroom_block
 100	0	Red Mushroom Block	red_mushroom_block
 101	0	Iron Bars	iron_bars
@@ -196,7 +196,7 @@
 106	0	Vines	vine
 107	0	Oak Fence Gate	fence_gate
 108	0	Brick Stairs	brick_stairs
-109	0	Stone Brick Stairs	stone_brick_stairs
+109	0	Stone Brick Stairs	smooth_brick_stairs
 110	0	Mycelium	mycelium
 111	0	Lily Pad	waterlily
 112	0	Nether Brick	nether_brick
@@ -409,7 +409,7 @@
 286	0	Golden Axe	golden_axe
 287	0	String	string
 288	0	Feather	feather
-289	0	Gunpowder	gunpowder
+289	0	Gunpowder	sulphur
 290	0	Wooden Hoe	wooden_hoe
 291	0	Stone Hoe	stone_hoe
 292	0	Iron Hoe	iron_hoe
@@ -439,8 +439,8 @@
 316	0	Golden Leggings	golden_leggings
 317	0	Golden Boots	golden_boots
 318	0	Flint	flint
-319	0	Raw Porkchop	porkchop
-320	0	Cooked Porkchop	cooked_porkchop
+319	0	Raw Porkchop	pork
+320	0	Cooked Porkchop	grilled_pork
 321	0	Painting	painting
 322	0	Golden Apple	golden_apple
 322	1	God Apple	golden_apple
@@ -476,22 +476,22 @@
 349	3	Pufferfish	fish
 350	0	Cooked Fish	cooked_fish
 350	1	Cooked Salmon	cooked_fish
-351	0	Ink Sack	dye
-351	1	Rose Red	dye
-351	2	Cactus Green	dye
-351	3	Coco Beans	dye
-351	4	Lapis Lazuli	dye
-351	5	Purple Dye	dye
-351	6	Cyan Dye	dye
-351	7	Light Gray Dye	dye
-351	8	Gray Dye	dye
-351	9	Pink Dye	dye
-351	10	Lime Dye	dye
-351	11	Dandelion Yellow	dye
-351	12	Light Blue Dye	dye
-351	13	Magenta Dye	dye
-351	14	Orange Dye	dye
-351	15	Bone Meal	dye
+351	0	Ink Sack	ink_sack
+351	1	Rose Red	ink_sack
+351	2	Cactus Green	ink_sack
+351	3	Coco Beans	ink_sack
+351	4	Lapis Lazuli	ink_sack
+351	5	Purple Dye	ink_sack
+351	6	Cyan Dye	ink_sack
+351	7	Light Gray Dye	ink_sack
+351	8	Gray Dye	ink_sack
+351	9	Pink Dye	ink_sack
+351	10	Lime Dye	ink_sack
+351	11	Dandelion Yellow	ink_sack
+351	12	Light Blue Dye	ink_sack
+351	13	Magenta Dye	ink_sack
+351	14	Orange Dye	ink_sack
+351	15	Bone Meal	ink_sack
 352	0	Bone	bone
 353	0	Sugar	sugar
 354	0	Cake	cake
@@ -523,35 +523,35 @@
 380	0	Cauldron	cauldron
 381	0	Eye of Ender	ender_eye
 382	0	Glistering Melon	speckled_melon
-383	50	Spawn Creeper	spawn_egg
-383	51	Spawn Skeleton	spawn_egg
-383	52	Spawn Spider	spawn_egg
-383	54	Spawn Zombie	spawn_egg
-383	55	Spawn Slime	spawn_egg
-383	56	Spawn Ghast	spawn_egg
-383	57	Spawn Zombie Pigman	spawn_egg
-383	58	Spawn Enderman	spawn_egg
-383	59	Spawn Cave Spider	spawn_egg
-383	60	Spawn Silverfish	spawn_egg
-383	61	Spawn Blaze	spawn_egg
-383	62	Spawn Magma Cube	spawn_egg
-383	65	Spawn Bat	spawn_egg
-383	66	Spawn Witch	spawn_egg
-383	67	Spawn Endermite	spawn_egg
-383	68	Spawn Guardian	spawn_egg
-383	69	Spawn Shulker	spawn_egg
-383	90	Spawn Pig	spawn_egg
-383	91	Spawn Sheep	spawn_egg
-383	92	Spawn Cow	spawn_egg
-383	93	Spawn Chicken	spawn_egg
-383	94	Spawn Squid	spawn_egg
-383	95	Spawn Wolf	spawn_egg
-383	96	Spawn Mooshroom	spawn_egg
-383	98	Spawn Ocelot	spawn_egg
-383	100	Spawn Horse	spawn_egg
-383	101	Spawn Rabbit	spawn_egg
-383	102	Spawn Polar Bear	spawn_egg
-383	120	Spawn Villager	spawn_egg
+383	50	Spawn Creeper	monster_egg
+383	51	Spawn Skeleton	monster_egg
+383	52	Spawn Spider	monster_egg
+383	54	Spawn Zombie	monster_egg
+383	55	Spawn Slime	monster_egg
+383	56	Spawn Ghast	monster_egg
+383	57	Spawn Zombie Pigman	monster_egg
+383	58	Spawn Enderman	monster_egg
+383	59	Spawn Cave Spider	monster_egg
+383	60	Spawn Silverfish	monster_egg
+383	61	Spawn Blaze	monster_egg
+383	62	Spawn Magma Cube	monster_egg
+383	65	Spawn Bat	monster_egg
+383	66	Spawn Witch	monster_egg
+383	67	Spawn Endermite	monster_egg
+383	68	Spawn Guardian	monster_egg
+383	69	Spawn Shulker	monster_egg
+383	90	Spawn Pig	monster_egg
+383	91	Spawn Sheep	monster_egg
+383	92	Spawn Cow	monster_egg
+383	93	Spawn Chicken	monster_egg
+383	94	Spawn Squid	monster_egg
+383	95	Spawn Wolf	monster_egg
+383	96	Spawn Mooshroom	monster_egg
+383	98	Spawn Ocelot	monster_egg
+383	100	Spawn Horse	monster_egg
+383	101	Spawn Rabbit	monster_egg
+383	102	Spawn Polar Bear	monster_egg
+383	120	Spawn Villager	monster_egg
 384	0	Bottle o' Enchanting	experience_bottle
 385	0	Fire Charge	fire_charge
 386	0	Book and Quill	writable_book
@@ -559,8 +559,8 @@
 388	0	Emerald	emerald
 389	0	Item Frame	item_frame
 390	0	Flower Pot	flower_pot
-391	0	Carrot	carrot
-392	0	Potato	potato
+391	0	Carrot	carrot_item
+392	0	Potato	potato_item
 393	0	Baked Potato	baked_potato
 394	0	Poisonous Potato	poisonous_potato
 395	0	Empty Map	map
@@ -574,7 +574,7 @@
 398	0	Carrot on a Stick	carrot_on_a_stick
 399	0	Nether Star	nether_star
 400	0	Pumpkin Pie	pumpkin_pie
-401	0	Firework Rocket	fireworks
+401	0	Firework Rocket	firework
 402	0	Firework Star	firework_charge
 403	0	Enchanted Book	enchanted_book
 404	0	Redstone Comparator	comparator

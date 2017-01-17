@@ -1,79 +1,79 @@
 shop:
   Dirt:
     MenuItem:
-    - lore:&4&1 Purchase 1 Dirt(s) for 1$
+    - lore:&4&1Purchase 1 Dirt(s) for 1$
     - name:&4&1Dirt
     - amount:1
-    - type:3:0
+    - type:dirt
     RewardType: Item
     Reward:
     - - amount:1
-      - type:3:0
+      - type:dirt
     PriceType: Money
     Price: 1
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 0
+    InventoryLocation: 1
   Cobblestone:
     MenuItem:
-    - lore:&4&1 Purchase 32 Cobblestone(s) for 150$
+    - lore:&4&1Purchase 32 Cobblestone(s) for 150$
     - name:&4&1Cobblestone
     - amount:1
-    - type:4:0
+    - type:cobblestone
     RewardType: Item
     Reward:
     - - amount:32
-      - type:4:0
+      - type:cobblestone
     PriceType: Money
     Price: 150
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 1
+    InventoryLocation: 2
   Obsidian:
     MenuItem:
-    - lore:&4&1 Purchase 1 Obsidian(s) for 1025$
+    - lore:&4&1Purchase 1 Obsidian(s) for 1025$
     - name:&4&1Obsidian
     - amount:1
-    - type:49:0
+    - type:obsidian
     RewardType: Item
     Reward:
     - - amount:1
-      - type:49:0
+      - type:obsidian
     PriceType: Money
     Price: 1025
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 2
+    InventoryLocation: 3
   Glass:
     MenuItem:
-    - lore:&4&1 Purchase 1 Glass(s) for 15$
+    - lore:&4&1Purchase 1 Glass(s) for 15$
     - name:&4&1Glass
     - amount:1
-    - type:20:0
+    - type:glass
     RewardType: Item
     Reward:
     - - amount:1
-      - type:20:0
+      - type:glass
     PriceType: Money
     Price: 15
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 3
+    InventoryLocation: 4
   Soul Sand:
     MenuItem:
-    - lore:&4&1 Purchase 1 Soul Sand(s) for 65$
+    - lore:&4&1Purchase 1 Soul Sand(s) for 65$
     - name:&4&1Soul Sand
     - amount:1
-    - type:88:0
+    - type:soul_sand
     RewardType: Item
     Reward:
     - - amount:1
-      - type:88:0
+      - type:soul_sand
     PriceType: Money
     Price: 65
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 4
+    InventoryLocation: 5
   Back:
     MenuItem:
     - name:&4&lGo Back
@@ -81,13 +81,13 @@ shop:
     - type:STAINED_GLASS_PANE
     - durability:14
     RewardType: Shop
-    Reward: ShopMenu
+    Reward: BuyShop
     PriceType: Free
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 54
 ShopName: BlocksBuy
-DisplayName: '&c&lBlocks'
+DisplayName: '&c&lBuy > Blocks'
 signs:
   text: '[BlocksBuy]'
   NeedPermissionToCreateSign: true

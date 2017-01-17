@@ -3,87 +3,104 @@ shop:
     MenuItem:
     - name:&4&1Combat
     - amount:1
-    - type:276:0
+    - type:diamond_sword
     RewardType: Shop
     Reward: CombatBuy
     PriceType: Free
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 8
+    InventoryLocation: 1
   Transportation:
     MenuItem:
     - name:&4&1Transportation
     - amount:1
-    - type:66:0
+    - type:rails
     RewardType: Shop
     Reward: TransportationBuy
     PriceType: Free
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 9
+    InventoryLocation: 2
   Food:
     MenuItem:
     - name:&4&1Food
     - amount:1
-    - type:364:0
+    - type:cooked_beef
     RewardType: Shop
     Reward: FoodBuy
     PriceType: Free
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 10
+    InventoryLocation: 3
   HostileSpawners:
     MenuItem:
     - name:&4&1HostileSpawners
     - amount:1
-    - type:383:50
+    - type:monster_egg
     RewardType: Shop
     Reward: HostileSpawnersBuy
     PriceType: Free
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 11
+    InventoryLocation: 4
   PassiveSpawners:
     MenuItem:
     - name:&4&1PassiveSpawners
     - amount:1
-    - type:383:90
+    - type:mob_spawner
     RewardType: Shop
     Reward: PassiveSpawnersBuy
     PriceType: Free
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 12
+    InventoryLocation: 5
   MobDrops:
     MenuItem:
     - name:&4&1MobDrops
     - amount:1
-    - type:367:0
+    - type:rotten_flesh
     RewardType: Shop
     Reward: MobDropsBuy
     PriceType: Free
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 13
+    InventoryLocation: 6
   Blocks:
     MenuItem:
     - name:&4&1Blocks
     - amount:1
-    - type:1:0
+    - type:smooth_brick
     RewardType: Shop
     Reward: BlocksBuy
     PriceType: Free
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 14
+    InventoryLocation: 7
   Materials:
     MenuItem:
     - name:&4&1Materials
     - amount:1
-    - type:280:0
+    - type:stick
     RewardType: Shop
     Reward: MaterialsBuy
     PriceType: Free
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 15
+    InventoryLocation: 8
+  Back:
+    MenuItem:
+    - name:&4&lGo Back
+    - amount:1
+    - type:STAINED_GLASS_PANE
+    - durability:14
+    RewardType: Shop
+    Reward: ShopMenu
+    PriceType: Free
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 27
+ShopName: BuyShop
+DisplayName: '&c&lBuy Shop'
+signs:
+  text: '[BuyShop]'
+  NeedPermissionToCreateSign: true

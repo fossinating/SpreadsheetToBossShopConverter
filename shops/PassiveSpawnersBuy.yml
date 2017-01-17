@@ -1,64 +1,64 @@
 shop:
   Spawn Pig:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Pig(s) for 350,000$
+    - lore:&4&1Purchase 1 Spawn Pig(s) for 350,000$
     - name:&4&1Spawn Pig
     - amount:1
-    - type:383:90
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:90
+      - type:monster_egg
     PriceType: Money
-    Price: 350,000
-    Message: ''
-    ExtraPermission: ''
-    InventoryLocation: 0
-  Spawn Cow:
-    MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Cow(s) for 350,000$
-    - name:&4&1Spawn Cow
-    - amount:1
-    - type:383:92
-    RewardType: Item
-    Reward:
-    - - amount:1
-      - type:383:92
-    PriceType: Money
-    Price: 350,000
+    Price: 350000
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 1
-  Spawn Chicken:
+  Spawn Cow:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Chicken(s) for 350,000$
-    - name:&4&1Spawn Chicken
+    - lore:&4&1Purchase 1 Spawn Cow(s) for 350,000$
+    - name:&4&1Spawn Cow
     - amount:1
-    - type:383:93
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:93
+      - type:monster_egg
     PriceType: Money
-    Price: 350,000
+    Price: 350000
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 2
-  Spawn Creeper:
+  Spawn Chicken:
     MenuItem:
-    - lore:&4&1 Purchase 1 Spawn Creeper(s) for 500,000$
-    - name:&4&1Spawn Creeper
+    - lore:&4&1Purchase 1 Spawn Chicken(s) for 350,000$
+    - name:&4&1Spawn Chicken
     - amount:1
-    - type:383:50
+    - type:monster_egg
     RewardType: Item
     Reward:
     - - amount:1
-      - type:383:50
+      - type:monster_egg
     PriceType: Money
-    Price: 500,000
+    Price: 350000
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 3
+  Spawn Creeper:
+    MenuItem:
+    - lore:&4&1Purchase 1 Spawn Creeper(s) for 500,000$
+    - name:&4&1Spawn Creeper
+    - amount:1
+    - type:monster_egg
+    RewardType: Item
+    Reward:
+    - - amount:1
+      - type:monster_egg
+    PriceType: Money
+    Price: 500000
+    Message: ''
+    ExtraPermission: ''
+    InventoryLocation: 4
   Back:
     MenuItem:
     - name:&4&lGo Back
@@ -66,13 +66,13 @@ shop:
     - type:STAINED_GLASS_PANE
     - durability:14
     RewardType: Shop
-    Reward: ShopMenu
+    Reward: BuyShop
     PriceType: Free
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 54
 ShopName: PassiveSpawnersBuy
-DisplayName: '&c&lPeaceful Spawners'
+DisplayName: '&c&lBuy > Peaceful Spawners'
 signs:
   text: '[PassiveSpawnersBuy]'
   NeedPermissionToCreateSign: true

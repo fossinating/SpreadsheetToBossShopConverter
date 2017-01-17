@@ -1,64 +1,64 @@
 shop:
   Ender Pearl:
     MenuItem:
-    - lore:&4&1 Purchase 1 Ender Pearl(s) for 100$
+    - lore:&4&1Purchase 1 Ender Pearl(s) for 100$
     - name:&4&1Ender Pearl
     - amount:1
-    - type:368:0
+    - type:ender_pearl
     RewardType: Item
     Reward:
     - - amount:1
-      - type:368:0
+      - type:ender_pearl
     PriceType: Money
     Price: 100
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 0
+    InventoryLocation: 1
   Gunpowder:
     MenuItem:
-    - lore:&4&1 Purchase 1 Gunpowder(s) for 25$
+    - lore:&4&1Purchase 1 Gunpowder(s) for 25$
     - name:&4&1Gunpowder
     - amount:1
-    - type:289:0
+    - type:sulphur
     RewardType: Item
     Reward:
     - - amount:1
-      - type:289:0
+      - type:sulphur
     PriceType: Money
     Price: 25
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 1
+    InventoryLocation: 2
   Bone:
     MenuItem:
-    - lore:&4&1 Purchase 1 Bone(s) for 20$
+    - lore:&4&1Purchase 1 Bone(s) for 20$
     - name:&4&1Bone
     - amount:1
-    - type:352:0
+    - type:bone
     RewardType: Item
     Reward:
     - - amount:1
-      - type:352:0
+      - type:bone
     PriceType: Money
     Price: 20
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 2
+    InventoryLocation: 3
   Rotten Flesh:
     MenuItem:
-    - lore:&4&1 Purchase 1 Rotten Flesh(s) for 15$
+    - lore:&4&1Purchase 1 Rotten Flesh(s) for 15$
     - name:&4&1Rotten Flesh
     - amount:1
-    - type:367:0
+    - type:rotten_flesh
     RewardType: Item
     Reward:
     - - amount:1
-      - type:367:0
+      - type:rotten_flesh
     PriceType: Money
     Price: 15
     Message: ''
     ExtraPermission: ''
-    InventoryLocation: 3
+    InventoryLocation: 4
   Back:
     MenuItem:
     - name:&4&lGo Back
@@ -66,13 +66,13 @@ shop:
     - type:STAINED_GLASS_PANE
     - durability:14
     RewardType: Shop
-    Reward: ShopMenu
+    Reward: BuyShop
     PriceType: Free
     Message: ''
     ExtraPermission: ''
     InventoryLocation: 54
 ShopName: MobDropsBuy
-DisplayName: '&c&lMob Drops'
+DisplayName: '&c&lBuy > Mob Drops'
 signs:
   text: '[MobDropsBuy]'
   NeedPermissionToCreateSign: true
